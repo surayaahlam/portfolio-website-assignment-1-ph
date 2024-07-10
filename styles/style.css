@@ -58,6 +58,7 @@ body{
     font-size: 16px;
     font-weight: 400;
     text-align: center;
+    opacity: 0.7;
 }
 
 .banner-content button{
@@ -113,6 +114,7 @@ body{
     font-size: 16px;
     font-weight: 400;
     text-align: center;
+    opacity: 0.7;
 }
 
 .web-development-card-1, .web-development-card-3{
@@ -159,7 +161,6 @@ body{
     gap: 133px;
 }
 
-
 .card-1-text, .card-2-text, .card-3-text{
     width: 477px;
     height: 220px;
@@ -178,6 +179,7 @@ body{
     color: rgb(13, 19, 33);
     font-size: 15px;
     font-weight: 400;
+    opacity: 0.7;
 }
 
 .card-1-text button, .card-2-text button, .card-3-text button{
@@ -189,7 +191,7 @@ body{
     font-weight: 600;
 }
 
-/* My Inspiration section styles */
+/* my inspiration section styles */
 .inspiration-container{
     width: 1140px;
     height: 775px;
@@ -222,6 +224,7 @@ body{
     font-size: 16px;
     font-weight: 400;
     text-align: center;
+    opacity: 0.7;
 }
 
 .inspiration-video{
@@ -239,3 +242,112 @@ body{
     height: 550px;
     border-radius: 16px;
 }
+
+/* my current target styles */
+.target-container{
+    width: 1140px;
+    height: 460px;
+    margin: 0 auto;
+    margin-top: 151px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.target-text-content{
+    width: 946px;
+    height: 113px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.target-text-content h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.target-text-content p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    opacity: 0.7;
+}
+
+.target-card-container{
+    width: 1140px;
+    height: 299px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.target-card-1{
+    width: 364px;
+    height: 299px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(255, 76, 30, 0.05);
+}
+
+.target-card-2{
+    width: 364px;
+    height: 299px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.target-card-3{
+    width: 364px;
+    height: 299px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 16px;
+    background: rgba(255, 223, 0, 0.05);
+}
+
+.target-card-content{
+    width: 284px;
+    height: 219px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.target-card-content h3{
+    color: rgb(13, 19, 33);
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.target-card-content p{
+    color: rgb(13, 19, 33);
+    font-size: 13px;
+    font-weight: 400;
+    opacity: 0.7;
+}
+
+.target-card-content img{
+    width: 56px;
+    height: 56px;
+}
+
+.target-card-content a{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+}
+
+
+
+
