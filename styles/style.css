@@ -16,7 +16,7 @@ body{
     max-width: 1440px;
     min-height: 652px;
     margin: 0 auto;
-    background-image: url(../assets/Hero-bg.png);
+    background-image: url("../assets/Hero-bg.png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -243,7 +243,7 @@ body{
     border-radius: 16px;
 }
 
-/* my current target styles */
+/* my current target section styles */
 .target-container{
     width: 1140px;
     height: 460px;
@@ -346,6 +346,83 @@ body{
     color: rgb(13, 19, 33);
     font-size: 16px;
     font-weight: 700;
+}
+
+/* i need support section styles */
+.support-container{
+    width: 1140px;
+    height: 313px;
+    margin: 0 auto;
+    margin-top: 49px;
+    border-radius: 16px;
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.4),rgba(0, 0, 0, 0.4)), url('../assets/handshake.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.support-content{
+    width: 1044px;
+    height: 185px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.support-text-content{
+    width: 730px;
+    height: 104px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.support-text-content h1{
+    color: white;
+    font-size: 32px;
+    font-weight: 700;
+}
+
+.support-paragraph{
+    width: 620px;
+    height: 60;
+    color: white;
+    font-size: 14px;
+    font-weight: 400;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.support-submit-content{
+    display: flex;
+    gap: 16px;
+}
+
+.support-submit-content input[type=text]{
+    width: 548px;
+    height: 57px;
+    border-radius: 8px;
+    color: rgba(13, 19, 33, 0.4);
+    font-family: Azeret Mono;
+    font-size: 15px;
+    font-weight: 400;
+    padding-left: 20px;   
+}
+
+.support-submit-content input[type=submit]{
+    width: 120px;
+    height: 57px;
+    border-radius: 8px;
+    color: rgb(13, 19, 33);
+    font-family: Azeret Mono;
+    font-size: 20px;
+    font-weight: 600;
+    border: none;
 }
 
 
