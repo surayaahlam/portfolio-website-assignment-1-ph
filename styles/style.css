@@ -71,4 +71,122 @@ body{
     border: none;
 }
 
-/* why web development section styles */
+/* why web development?? section styles */
+.web-development-container{
+    width: 1140px;
+    height: 1395px;
+    margin: 0 auto;
+    margin-top: 74px;
+    border-radius: 16px;
+    background: rgba(13, 19, 33, 0.02);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.web-development-content{
+    width: 946px;
+    height: 1235px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.web-development-text{
+    width: 852px;
+    height: 115px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.web-development-text h1{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+}
+
+.web-development-text p{
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.web-development-card-1, .web-development-card-3{
+    width: 946px;
+    height: 336px;
+    border-radius: 16px;
+    background: linear-gradient(90.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.web-development-card-2{
+    width: 946px;
+    height: 336px;
+    border-radius: 16px;
+    background: linear-gradient(270.00deg, rgb(255, 255, 255),rgba(255, 255, 255, 0) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-1-content{
+    width: 850px;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    gap: 99.77px;
+}
+
+.card-2-content{
+    width: 850px;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    gap: 32px;
+}
+
+.card-3-content{
+    width: 850px;
+    height: 240px;
+    display: flex;
+    align-items: center;
+    gap: 133px;
+}
+
+
+.card-1-text, .card-2-text, .card-3-text{
+    width: 477px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card-1-text h5, .card-2-text h5, .card-3-text h5{
+    color: rgba(13, 19, 33, 0.7);
+    font-size: 22px;
+    font-weight: 700;
+}
+
+.card-1-text p, .card-2-text p, .card-3-text p{
+    color: rgb(13, 19, 33);
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.card-1-text button, .card-2-text button, .card-3-text button{
+    width: 150px;
+    height: 48px;
+    border: 1px solid rgb(13, 19, 33);
+    color: rgb(13, 19, 33);
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* My Inspiration section styles */
